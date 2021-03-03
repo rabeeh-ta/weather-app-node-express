@@ -1,4 +1,4 @@
-console.log('client side js open');
+console.log('hola ');
 
 const weatherFrom = document.querySelector('form');
 const search = document.querySelector('input');
@@ -11,7 +11,7 @@ weatherFrom.addEventListener('submit', (e) => {
 
   messageOne.textContent = 'loading...';
   messageTwo.textContent = '';
-  fetch(`http://localhost:3000/weather?address=${location}`).then((res) => {
+  fetch(`/weather?address=${location}`).then((res) => {
     res.json().then((data) => {
       if (data.error) {
         // console.log(data.error);
