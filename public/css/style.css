@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  margin: 10% 20%;
+  font-family: monospace;
+  color: white;
+}
+
+img {
+  width: 250px;
+  margin-top: 30px;
+  border-radius: 30%;
+}
+
+a {
+  font-weight: bolder;
+  margin-left: 10px;
+  font-size: large;
+  color: purple;
+}
+
+input {
+  border: 1px solid white;
+  padding: 8px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid ghostwhite;
+  background-color: grey;
+  color: white;
+  padding: 8px;
+}
+
+footer {
+  position: absolute;
+  top: 80vh;
+}
